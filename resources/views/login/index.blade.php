@@ -15,7 +15,7 @@
 	<title>SPPD | {{ $title }}</title>
 
 	<!-- Favicon -->
-	<link rel="icon" href="/assets/img/logo-banten.png" type="image/x-icon" />
+	<link rel="icon" href="/assets/img/logo.png" type="image/x-icon" />
 
 	<!-- Icons css -->
 	<link href="/assets/css/icons.css" rel="stylesheet">
@@ -47,7 +47,7 @@
 				<div class="col-md-6 col-lg-6 col-xl-7 d-none d-md-flex bg-primary-transparent">
 					<div class="row wd-100p mx-auto text-center">
 						<div class="col-md-12 col-lg-12 col-xl-12 my-auto mx-auto wd-100p">
-							<img src="/assets/img/login.jpg" class="my-auto wd-md-100p wd-xl-100p mx-auto" style="height: 100vh" alt="logo">
+							<img src="/assets/img/project2.svg" class="my-auto wd-md-100p wd-xl-100p mx-auto" style="height: 100vh" alt="logo">
 						</div>
 					</div>
 				</div>
