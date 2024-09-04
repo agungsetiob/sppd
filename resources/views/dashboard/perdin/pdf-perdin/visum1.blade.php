@@ -25,12 +25,13 @@
             </td>
             <td style="width: 100%;">
                 <div style="text-align: center;">
-                    <p style="font-size: x-large;">PEMERINTAH PROVINSI BANTEN</p>
-                    <h2 style="font-size: 23px">BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH</h2>
+                    <p style="font-size: x-large;">PEMERINTAH KABUPATEN TANAH BUMBU</p>
+					<p style="font-size: x-large;">DINAS KESEHATAN</p>
+                    <h2 style="font-size: 23px">UPTD RSUD dr.H. ANDI ABDURRAHMAN NOOR</h2>
                     <small>
-                        Kawasan Pusat Pemerintahan Provinsi Banten (KP3B) <br>
-                        Jalan Syech Nawawi Al Bantani, Palima Serang Banten <br>
-                        Laman : bpkad.bantenprov.go.id Pos-el : bpkad@bantenprov.go.id Kode Pos 42171
+					Alamat: Jl.H.M.Amin Km 10 RT 03 Desa Sepunggur Kec.Kusan tengah Kab.Tanah Bumbu<br>
+					Prov. Kalimantan Selatan Kode Pos. 72273 Telp. (0518) 6070767 / 08115040540 <br>
+					email: rsud.tanahbumbu@gmail.com / rsud.tanbu@gmail.com
                     </small>
                 </div>
             </td>

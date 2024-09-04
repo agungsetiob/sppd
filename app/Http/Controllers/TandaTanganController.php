@@ -31,7 +31,7 @@ class TandaTanganController extends Controller
             'pptk' => 'Petugas Pelaksana Teknis Kegiatan',
             'pengguna_anggaran' => 'Pengguna Anggaran',
             'kuasa_pengguna_anggaran' => 'Kuasa Pengguna Anggaran',
-            'kepala_badan' => 'Kepala Badan'
+            'kepala_badan' => 'Direktur'
         ];
 
         return view('dashboard.master.tanda-tangan.create', [

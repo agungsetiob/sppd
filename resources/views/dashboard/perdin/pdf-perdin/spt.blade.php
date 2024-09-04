@@ -24,12 +24,13 @@
             </td>
             <td style="width: 100%;">
                 <div style="text-align: center;">
-                    <p style="font-size: x-large;">PEMERINTAH PROVINSI BANTEN</p>
-                    <h2 style="font-size: 23px">BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH</h2>
+                    <p style="font-size: x-large;">PEMERINTAH KABUPATEN TANAH BUMBU</p>
+					<p style="font-size: x-large;">DINAS KESEHATAN</p>
+                    <h2 style="font-size: 23px">UPTD RSUD dr.H. ANDI ABDURRAHMAN NOOR</h2>
                     <small>
-                        Kawasan Pusat Pemerintahan Provinsi Banten (KP3B) <br>
-                        Jalan Syech Nawawi Al Bantani, Palima Serang Banten <br>
-                        Laman : bpkad.bantenprov.go.id Pos-el : bpkad@bantenprov.go.id Kode Pos 42171
+					Alamat: Jl.H.M.Amin Km 10 RT 03 Desa Sepunggur Kec.Kusan tengah Kab.Tanah Bumbu<br>
+					Prov. Kalimantan Selatan Kode Pos. 72273 Telp. (0518) 6070767 / 08115040540 <br>
+					email: rsud.tanahbumbu@gmail.com / rsud.tanbu@gmail.com
                     </small>
                 </div>
             </td>
@@ -46,9 +47,9 @@
 	<div style="margin: 20px 60px 0 60px;">
 
 		<div style="text-align: center; margin-bottom: 20px">
-            <p style="margin: 0; font-size: 20px; font-weight: bold; text-decoration: underline;">SURAT TUGAS</p>
+            <p style="margin: 0; font-size: 20px; text-decoration: underline;">SURAT PERINTAH TUGAS</p>
             <p style="margin: 0;">
-                <span style="padding-right: 150px;">Nomor : </span> 2024
+                <span style="padding-right: 30px;">Nomor: B/000.1.2.3/         /RSUD-ADMKEU.1/VI/{{ now()->year }}
             </p>
 		</div>
 
@@ -60,9 +61,9 @@
                 <td colspan="3">
 					@if ($data_perdin->surat_dari)
 					<span>
-						Surat undangan No {{ $data_perdin->nomor_surat }}&nbsp;
-                        Tanggal {{ Carbon\Carbon::parse($data_perdin->tgl_surat)->isoFormat('D MMMM YYYY') }}&nbsp;
-                        tentang {{ $data_perdin->perihal }}&nbsp;
+						Berdasarkan Surat {{ $data_perdin->surat_dari }} No: {{ $data_perdin->nomor_surat }}&nbsp;
+                        Tanggal: {{ Carbon\Carbon::parse($data_perdin->tgl_surat)->isoFormat('D MMMM YYYY') }}&nbsp;
+                        Perihal: {{ $data_perdin->perihal }}&nbsp;
                         {{-- dalam {{ $data_perdin->kwitansi_perdin->kegiatan_sub ? 'Kegiatan ' . strtolower($data_perdin->kwitansi_perdin->kegiatan_sub->kegiatan->nama) . ' Sub Kegiatan ' . strtolower($data_perdin->kwitansi_perdin->kegiatan_sub->nama) : '' }},&nbsp; --}}
 					</span>
 					@endif
@@ -73,12 +74,12 @@
                 <td></td>
 				<td>-</td>
                 <td colspan="3">
-                    Dokumen Pelaksanaan Anggaran Satuan Kerja Perangkat Daerah (DPA-SKPD) Badan Pengelolaan Keuangan dan Aset Daerah Provinsi Banten Tahun Anggaran 2024.
+					Nota Dinas Pimpinan BLUD RSUD dr. H. Andi Abdurrahman Noor Nomor: B/000.1.2.3/1204/RSUD-ADMKEU.1/VII/2024 Hal: Mohon Persetujuan Perjalanan Dinas Menghadiri Bimbingan Teknis Keamanan Informasi.
 				</td>
             </tr>
             <tr>
                 <td colspan="5">
-                    <p style="text-align: center; padding: 20px 0px; font-size: 20px;">MEMERINTAHKAN:</p>
+                    <p style="text-align: left; padding: 20px 0px; font-size: 20px;">Dengan ini menugaskan kepada:</p>
                 </td>
             </tr>
 			<tr>

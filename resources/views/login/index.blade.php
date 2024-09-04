@@ -60,7 +60,7 @@
 								<div class="col-md-10 col-lg-10 col-xl-9 mx-auto">
 									<div class="card-sigin">
 										<div class="main-signup-header">
-											<h2>Login Aplikasi Surat Perintah Perjalanan Dinas (SPPD)</h2>
+											<h2>Login Aplikasi Surat Perintah Perjalanan Dinas (SUPRIADI)</h2>
 											<h5 class="fw-semibold mb-4">RSUD dr. H. Andi Abdurrahman Noor</h5>
 											<hr>
 											<form action="{{ route('login') }}" method="post">
